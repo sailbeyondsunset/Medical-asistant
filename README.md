@@ -11,10 +11,10 @@
 	症状：最近皮肤和嘴唇颜色苍白，经常头晕、失眠，感觉记忆力也变差了
 
 <4 数据说明：
-	1_MedicalQ_A.txt(1_2MedicalQ_A去重版) 2000条医疗问答数据，中文，结构为提问（症状描述）+回答（疑似病症+医疗建议），源数据来自S. Zhang， X. Zhang， H. Wang， L. Guo and S. Liu， “Multi-Scale Attentive Interaction Networks for Chinese Medical Question Answer Selection”， in IEEE Access， vol. 6， pp. 74061-74071， 2018， doi： 10.1109/ACCESS.2018.2883637. 关键词： {生物医学影像;数据挖掘;语义学;医疗服务;特征提取;知识发现;医疗问答;互动关注;深度学习;深度神经网络}，经过处理，处理方法见3源大模型RAG实战.ipynb
-	
-	2_DiseasesData.txt 400条疾病数据，英文由百度翻译为中文，结构为疾病名+症状+治疗手段，数据来自开源数据集Hugging Face QuyenAnhDE/Diseases_Symptoms
-	
-	3_output-prompt.jsonl 124条医疗问答数据，英文由百度翻译为中文，结构为prompt+症状+可能诊断，数据来自开源数据集Hugging Face varshil27/Symtoms-Disease-LLama2-Format
-	
-	4_diseases_infoDXYS.txt 近200条疾病相关完整数据，来自丁香医生相关页面，网址链接https://dxy.com/diseases/，数据经过处理
+1_MedicalQ_A.txt(1_2MedicalQ_A去重版) 2000条医疗问答数据，中文，结构为提问（症状描述）+回答（疑似病症+医疗建议），源数据来自S. Zhang， X. Zhang， H. Wang， L. Guo and S. Liu， “Multi-Scale Attentive Interaction Networks for Chinese Medical Question Answer Selection”， in IEEE Access， vol. 6， pp. 74061-74071， 2018， doi： 10.1109/ACCESS.2018.2883637. 关键词： {生物医学影像;数据挖掘;语义学;医疗服务;特征提取;知识发现;医疗问答;互动关注;深度学习;深度神经网络}，经过处理，处理方法见3源大模型RAG实战.ipynb
+
+2_DiseasesData.txt 400条疾病数据，英文由百度翻译为中文，结构为疾病名+症状+治疗手段，数据来自开源数据集Hugging Face QuyenAnhDE/Diseases_Symptoms
+
+3_output-prompt.jsonl 124条医疗问答数据，英文由百度翻译为中文，结构为prompt+症状+可能诊断，数据来自开源数据集Hugging Face varshil27/Symtoms-Disease-LLama2-Format
+
+4_diseases_infoDXYS.txt 近200条疾病相关完整数据，来自丁香医生相关页面，网址链接https://dxy.com/diseases/，数据经过处理
