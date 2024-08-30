@@ -5,8 +5,8 @@
 <2 运行要求及命令：
    文件：main.py 4_diseases_infoDXYS.txt 以及yuan大模型
    命令：
-	'pip install pypdf faiss-gpu langchain langchain_community langchain_huggingface streamlit==1.24.0 pillow pytesseract 
- 	'streamlit run 智能诊疗助手5_报告分析new.py --server.address 127.0.0.1 --server.port 6006
+	`pip install pypdf faiss-gpu langchain langchain_community langchain_huggingface streamlit==1.24.0 pillow pytesseract 
+ 	`streamlit run 智能诊疗助手5_报告分析new.py --server.address 127.0.0.1 --server.port 6006
 
 <3 测试问答
 	例：80贫血
