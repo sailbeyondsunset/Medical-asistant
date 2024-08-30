@@ -3,8 +3,10 @@
 	 你是否遇到过身体不适，却不知严重与否、是否该就医、该挂哪科，网上查还易被误导的情况？别担心，智能诊疗助手来帮你！作为专属健康顾问，若有不适，只需简单描述症状，它能解析并提供可能的健康问题、检查项目、治疗方案和生活建议，让你心中有数。若有检查报告，它能提取内容，给出疾病诊断、就诊科室、检查项目、治疗方案和生活建议等，让你一目了然。它还能根据历史对话和新症状实时调整建议，推荐科室和检查项目，生成详细诊断报告和实用生活建议，让你清楚自身健康状况。对医生也是好帮手，可提升诊断和治疗效率与准确性。智能诊疗助手，时刻守护你健康，让你远离疾病，畅享美好生活！
 
 <2 运行要求及命令：
-	pip install pypdf faiss-gpu langchain langchain_community langchain_huggingface streamlit==1.24.0 pillow pytesseract 
- 	streamlit run 智能诊疗助手5_报告分析new.py --server.address 127.0.0.1 --server.port 6006
+   文件：main.py 4_diseases_infoDXYS.txt 以及yuan大模型
+   命令：
+	'pip install pypdf faiss-gpu langchain langchain_community langchain_huggingface streamlit==1.24.0 pillow pytesseract 
+ 	'streamlit run 智能诊疗助手5_报告分析new.py --server.address 127.0.0.1 --server.port 6006
 
 <3 测试问答
 	例：80贫血
