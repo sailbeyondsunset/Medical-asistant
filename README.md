@@ -5,7 +5,7 @@
 
 <2 运行要求及命令：
 
-   文件：main.py 4_diseases_infoDXYS.txt 以及yuan大模型
+   文件：智能诊疗助手5_报告分析new.py 4_diseases_infoDXYS.txt 以及yuan大模型
    
    命令：
    
